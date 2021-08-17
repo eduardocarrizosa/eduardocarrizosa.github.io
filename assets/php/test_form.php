@@ -3,7 +3,7 @@
    $subject = “Test mail”;
    $message = “Hello! This is a simple test email message.”;
    $From = “asavel@gmail.com“;
-   $headers = “From:” . $from;
+   $headers = “From:” . $From;
    mail($to, $subject, $message, $headers, '-f'.$From);
    echo “Mail Sent.”;
 ?>
